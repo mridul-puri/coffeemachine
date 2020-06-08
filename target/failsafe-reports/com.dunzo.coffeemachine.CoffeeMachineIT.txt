@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.dunzo.coffeemachine.CoffeeMachineIT
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 6, Errors: 0, Skipped: 1, Time elapsed: 0.975 sec <<< FAILURE! - in com.dunzo.coffeemachine.CoffeeMachineIT
+t1_startMachine(com.dunzo.coffeemachine.CoffeeMachineIT)  Time elapsed: 0.389 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.dunzo.coffeemachine.CoffeeMachineIT.t1_startMachine(CoffeeMachineIT.java:54)
+
+t2_stopMachine(com.dunzo.coffeemachine.CoffeeMachineIT)  Time elapsed: 0.038 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.dunzo.coffeemachine.CoffeeMachineIT.t2_stopMachine(CoffeeMachineIT.java:75)
+
+t3_restartMachine(com.dunzo.coffeemachine.CoffeeMachineIT)  Time elapsed: 0.404 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.dunzo.coffeemachine.CoffeeMachineIT.t3_restartMachine(CoffeeMachineIT.java:101)
+
+t6_refillAllIngredients(com.dunzo.coffeemachine.CoffeeMachineIT)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.dunzo.coffeemachine.CoffeeMachineIT.t6_refillAllIngredients(CoffeeMachineIT.java:146)
+
+t8_refillSingleIngredient(com.dunzo.coffeemachine.CoffeeMachineIT)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.dunzo.coffeemachine.CoffeeMachineIT.t8_refillSingleIngredient(CoffeeMachineIT.java:189)
+
+t9_refillMultipleIngredients(com.dunzo.coffeemachine.CoffeeMachineIT)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.dunzo.coffeemachine.CoffeeMachineIT.t9_refillMultipleIngredients(CoffeeMachineIT.java:218)
+

@@ -1,0 +1,78 @@
+{
+	"no_of_outlets" : 5,
+	"list_of_ingredients" : [
+								{
+									"name" : "Milk",
+									"state" : "Liquid",
+									"unit" : "Ltr",
+									"capacity" : 20,
+									"threshold" : 5,
+									"quantity" : 10
+									"running_low" : false
+								},
+								{
+									"name" : "Water",
+									"state" : "Liquid",
+									"unit" : "Ltr",
+									"capacity" : 20,
+									"threshold" : 5,
+									"quantity" : 17
+									"running_low" : false
+								},
+								{
+									"name" : "Steam",
+									"state" : "Gas",
+									"unit" : "PV",
+									"capacity" : 20,
+									"threshold" : 2,
+									"quantity" : 20
+									"running_low" : false
+								},
+								{
+									"name" : "Coffee Beans",
+									"state" : "Solid",
+									"unit" : "number",
+									"capacity" : 20,
+									"threshold" : 5,
+									"quantity" : 18
+									"running_low" : false
+								},
+								{
+									"name" : "Tea Leaves",
+									"state" : "Solid",
+									"unit" : "number",
+									"capacity" : 20,
+									"threshold" : 5,
+									"quantity" : 18
+									"running_low" : false
+								}
+							],
+	"list_of_beverages" : 	[
+						{
+							"name" : "Coffee",
+							"recipe" : {
+											"Milk" : 2,
+											"Coffee Beans" : 2
+										}
+						},
+						{
+							"name" : "Hot Milk",
+							"recipe" : {
+											"Milk" : 2
+										}
+						},
+						{
+							"name" : "Green Tea",
+							"recipe" : {
+											"Tea Leaves" : 2,
+											"Water" : 2
+										}
+						},
+						{
+							"name" : "Hot Water",
+							"recipe" : {
+											"Water" : 2
+										}
+						}
+					]
+}

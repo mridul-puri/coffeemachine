@@ -1,0 +1,12 @@
+com\dunzo\coffeemachine\services\OutletService.class
+com\dunzo\coffeemachine\services\PowerService.class
+com\dunzo\coffeemachine\dao\BeveragesDAO.class
+com\dunzo\coffeemachine\dao\MachineSpecsDAO.class
+com\dunzo\coffeemachine\models\MachineConfig.class
+com\dunzo\coffeemachine\dao\InventoryDAO.class
+com\dunzo\coffeemachine\services\BeverageService.class
+com\dunzo\coffeemachine\services\InventoryService.class
+com\dunzo\coffeemachine\CoffeeMachineApplication.class
+com\dunzo\coffeemachine\models\Ingredients.class
+com\dunzo\coffeemachine\Controller.class
+com\dunzo\coffeemachine\models\Beverages.class
