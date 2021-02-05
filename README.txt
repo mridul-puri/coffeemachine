@@ -17,4 +17,4 @@ This is a Maven project written in Java using Spring Boot framework.
 How to run Integration test Cases  :- 
 1) Open "setup.json" and alter the input data as required
 2) Run the following command : mvn clean verify -P integration-test
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
