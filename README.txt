@@ -1,4 +1,4 @@
-COFEE MACHINE API
+COFFEE MACHINE API
 
 This is a working software for the internal functioning of a typical coffee machine.
 
@@ -17,4 +17,3 @@ This is a Maven project written in Java using Spring Boot framework.
 How to run Integration test Cases  :- 
 1) Open "setup.json" and alter the input data as required
 2) Run the following command : mvn clean verify -P integration-test
--------------------------------------------------------------------------------------
